@@ -1,0 +1,35 @@
+{
+  "name": "mealplanner_authenticate",
+  "version": "1.0.0",
+  "description": "\"check auth,token generate\"",
+  "keywords": [
+    "\"MVC",
+    "pattern",
+    "Postman",
+    "API",
+    "connection",
+    "request\""
+  ],
+  "homepage": "https://github.com/Jayasridhara/MealPlanner_Authentication#readme",
+  "bugs": {
+    "url": "https://github.com/Jayasridhara/MealPlanner_Authentication/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayasridhara/MealPlanner_Authentication.git"
+  },
+  "license": "ISC",
+  "author": "jayasri",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "201 success",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
