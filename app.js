@@ -1,10 +1,15 @@
 const express=require('express');
 const mealplanRouter = require('./routes/mealplanRoutes');
 const authRouter = require('./routes/authRoutes');
-const cookieParser =require('cookie-parser')
+const cookieParser =require('cookie-parser');
+const morgan=require('morgan');
+const logger = require('./utils/logger');
+
+
 const app=express();
 app.use(express.json()); 
 app.use(cookieParser());
+app.use(logger)
 //listen for incomin g requires
 
 app.use('/mealplans',mealplanRouter);

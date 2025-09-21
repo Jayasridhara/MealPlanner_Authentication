@@ -18,9 +18,6 @@ const createMealPlan = async (req, res) => {
         res.status(500).json({ message: 'Creating meal plan failed...', error: error.message });
     }
 }
-
-
-
 const getAllMealPlans=async (req,res)=>{
    try{
     const mealplans=await Mealplan.find().select('-__v');
